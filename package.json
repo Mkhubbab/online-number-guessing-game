@@ -1,0 +1,23 @@
+{
+  "name": "online-number-guessing-game",
+  "version": "1.0.1",
+  "description": "A simple number guessing game.",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Khubbab",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.17",
+    "online-number-guessing-game": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
